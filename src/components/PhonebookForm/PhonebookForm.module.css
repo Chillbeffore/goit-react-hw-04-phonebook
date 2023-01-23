@@ -1,6 +1,8 @@
 .phonebook {
   width: 300px;
   margin: 20px 0;
+ 
+  
 }
 .phonebook__form {
   border: 1.5px solid black;
@@ -8,11 +10,13 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
+  align-items: center;
 }
 .phonebook__label {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
+  align-items: center;
 }
 
 .phonebook__input {
